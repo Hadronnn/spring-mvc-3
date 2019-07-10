@@ -20,10 +20,12 @@
   <form action="${path}/testPost" method="post">
     <input type="submit" value="POST">
   </form>
-  <form action="${path}/testDelete" method="delete">
+  <form action="${path}/testDelete" method="post">
+    <input type="hidden" name="_method" value="delete">
     <input type="submit" value="DELETE">
   </form>
-  <form action="${path}/testPut" method="put">
+  <form action="${path}/testPut" method="post">
+    <input type="hidden" name="_method" value="put">
     <input type="submit" value="PUT">
   </form>
   </body>
