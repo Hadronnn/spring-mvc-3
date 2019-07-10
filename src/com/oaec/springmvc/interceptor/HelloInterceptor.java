@@ -13,7 +13,7 @@ public class HelloInterceptor implements HandlerInterceptor {
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
         Map<String, Object> model = modelAndView.getModel();
         String content = model.get("content").toString();
-        String web = content.replace("web", "***");
+        String web = content.replace("w", "***");
         model.put("content",web);
     }
 }

@@ -1,0 +1,7 @@
+Rest风格的API
+使用不同的请求方式完成不同的CRUD操作
+
+GET         ——>获取请求 ——> GetMapping
+POST        ——>添加数据 ——> PostMapping
+DELETE      ——>删除数据 ——> DeleteMapping
+PUT         ——>修改数据 ——> PutMapping
